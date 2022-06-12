@@ -11,12 +11,13 @@ const config: GatsbyConfig = {
   graphqlTypegen: true,
   plugins: [
     {
-      resolve: `gatsby-plugin-alias-imports`,
+      resolve: "gatsby-plugin-alias-imports",
       options: {
         alias: { "@components": path.resolve(__dirname, "src/components") },
         extensions: ["tsx"],
       },
     },
+    "gatsby-plugin-react-helmet",
   ],
 };
 
