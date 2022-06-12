@@ -1,9 +1,8 @@
 import React from "react";
+import Layout from "@components/Layout";
 
-const IndexPage = () => {
-  return (
-   <div>main page</div> 
-  );
+const LandingPage = () => {
+  return <Layout>This is the landing page.</Layout>;
 };
 
-export default IndexPage;
+export default LandingPage;
