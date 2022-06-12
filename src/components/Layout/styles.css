@@ -1,3 +1,8 @@
 :root {
   font-family: sans-serif;
+
+  --bg-color-dark: #121212;
+  --button-primary-color-dark:  #064374;
+  --text-primary-color-dark: #FFF;
+  --text-secondary-color-dark: #90caf9;
 }
