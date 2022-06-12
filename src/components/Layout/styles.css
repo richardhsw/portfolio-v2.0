@@ -1,0 +1,10 @@
+:root {
+  --bg-color-dark: #121212;
+  --button-primary-color-dark: #064374;
+  --text-primary-color-dark: #fff;
+  --text-secondary-color-dark: #90caf9;
+
+  font-family: sans-serif;
+  background-color: var(--bg-color-dark);
+  color: var(--text-primary-color-dark);
+}
