@@ -1,0 +1,42 @@
+:root {
+  --bg-color-dark: #121212;
+  --button-primary-color-dark: #064374;
+  --text-primary-color-dark: #fff;
+  --text-secondary-color-dark: #90caf9;
+
+  --h1-font-size: 4rem;
+  --p-font-size: 1.25rem;
+
+  font-family: sans-serif;
+  background-color: var(--bg-color-dark);
+  color: var(--text-primary-color-dark);
+}
+
+html {
+  font-size: 100%;
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+}
+
+p {
+  font-size: var(--p-font-size);
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+}
+
+/* 
+ * The styles below are needed when using vw and vh. Otherwise, horizontal
+ * and vertical scroll bars will appear on the screen. This is because
+ * @reach/router wraps every page with a div so it can automatically manage 
+ * the focus as part of making sure sites are usable by screen readers. 
+ * However it also makes the page smaller than the viewport. So whenever
+ * vw and vh are used, scroll bars appear. 
+ * See issue: https://github.com/gatsbyjs/gatsby/issues/7310.
+ */
+body {
+  margin: 0px;
+}
