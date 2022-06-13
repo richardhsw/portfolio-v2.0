@@ -32,7 +32,7 @@ function SEO({ title, description, article = false }: SeoProps) {
   };
 
   return (
-    <Helmet title={seo.title}>
+    <Helmet title={seo.title} htmlAttributes={{ lang: "en" }}>
       <meta name="description" content={seo.description} />
       {seo.url && <meta property="og:url" content={seo.url} />}
       {(article ? true : null) && <meta property="og:type" content="article" />}
