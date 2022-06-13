@@ -5,10 +5,10 @@ import "./styles.module.css";
 
 function Layout({ children }: LayoutProps) {
   return (
-    <div>
+    <>
       <SEO />
       {children}
-    </div>
+    </>
   );
 }
 
