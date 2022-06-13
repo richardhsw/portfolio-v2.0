@@ -107,6 +107,7 @@
     "./src/**/*",
     "./gatsby-node.ts",
     "./gatsby-config.ts",
-    "./plugins/**/*"
+    "./plugins/**/*",
+    "./declarations.d.ts"
   ]
 }
