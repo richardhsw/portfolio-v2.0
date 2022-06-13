@@ -8,3 +8,11 @@
   background-color: var(--bg-color-dark);
   color: var(--text-primary-color-dark);
 }
+
+html {
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 4rem;
+}
