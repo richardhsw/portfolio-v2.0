@@ -4,6 +4,9 @@
   --text-primary-color-dark: #fff;
   --text-secondary-color-dark: #90caf9;
 
+  --h1-font-size: 4rem;
+  --p-font-size: 1.25rem;
+
   font-family: sans-serif;
   background-color: var(--bg-color-dark);
   color: var(--text-primary-color-dark);
