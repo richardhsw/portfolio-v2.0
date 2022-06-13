@@ -27,3 +27,16 @@ p {
   margin-block-start: 0rem;
   margin-block-end: 0rem;
 }
+
+/* 
+ * The styles below are needed when using vw and vh. Otherwise, horizontal
+ * and vertical scroll bars will appear on the screen. This is because
+ * @reach/router wraps every page with a div so it can automatically manage 
+ * the focus as part of making sure sites are usable by screen readers. 
+ * However it also makes the page smaller than the viewport. So whenever
+ * vw and vh are used, scroll bars appear. 
+ * See issue: https://github.com/gatsbyjs/gatsby/issues/7310.
+ */
+body {
+  margin: 0px;
+}
