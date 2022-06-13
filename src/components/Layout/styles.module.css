@@ -17,5 +17,9 @@ html {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: var(--h1-font-size);
+}
+
+p {
+  font-size: var(--p-font-size);
 }
