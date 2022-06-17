@@ -1,0 +1,59 @@
+.NavBarContainerClosed {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.NavBarContainerOpen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: var(--bg-color-dark);
+}
+
+.HamburgerMenu {
+  margin: 1rem;
+}
+
+.HamburgerMenu:active {
+  color: var(--text-secondary-color-dark);
+}
+
+.NavBar {
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 1rem 4rem;
+}
+
+.NavButtonList {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 100%;
+  border-left: 2px solid var(--text-primary-color-dark);
+  padding: 5vh 0;
+}
+
+.NavButtonContainer {
+  padding: 2rem 0;
+}
+
+.NavButton {
+  color: var(--text-primary-color-dark);
+  text-decoration: none;
+  text-align: center;
+}
+
+.NavButton:active {
+  color: var(--button-secondary-color-dark);
+}
